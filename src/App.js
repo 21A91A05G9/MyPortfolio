@@ -17,7 +17,7 @@ function App() {
   <>
   <MyNavbar logo={logoImg} Title=" Sunil Noolu" button={resume}  btnName="Resume" />
   <Routes >
-
+    {/* route for navigation */}
     <Route path='/' element={ <> <About Name="Sunil" button1='https://www.linkedin.com/in/sunil-noolu/'  button2='https://www.github.com/Sunil-1508' btnName1="Connect"  btnName2="GitHub" image={pic} /> <Projects /> <Skills /> <Coding /> <Certifications /> <Education /> <Contact /> </>}  />
     <Route path="/About" element={<About Name="Sunil" button1='https://www.linkedin.com/in/sunil-noolu/'  button2='https://www.github.com/Sunil-1508' btnName1="Connect"  btnName2="GitHub" image={pic} /> } />
     <Route path="/Projects" element={<Projects/> } />
